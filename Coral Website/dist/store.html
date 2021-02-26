@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML Document</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <link rel="shortcut icon" type="image/png" href="#">
+
+        <!-- Lato and Roboto Fonts 300, 400, 500-->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet"></head>
+
+    <body>
+        <main class="main-store">
+            <header class="header">
+
+                <img src="#" class="header__logo"/>
+
+                <form class="header__search">
+                    <input type="text" class="header__input" placeholder="Search"/>
+                    <button class="header__search--btn">
+                        <svg class="header__search--icon">
+                            <use xlink:href="/img/sprite.svg#icon-search"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <div class="header__login">
+                    <a class="header__btn button" href="#">Login</a>
+                    <a href="#" class="header__cart">
+                        <svg class="header__cart-icon">
+                            <use xlink:href="/img/sprite.svg#icon-cart"></use>
+                        </svg>
+                        <span class="header__notification">0</span>
+                    </a>
+                </div>
+
+            </header>
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="/index.html" class="navigation__link">Home</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Store</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Sale</a></li>
+                    <li class="navigation__item"><a href="/faq.html" class="navigation__link">FAQ</a></li>
+                    <li class="navigation__item"><a href="/about.html" class="navigation__link">About Us</a></li>
+                    <li class="navigation__item"><a href="/contact.html" class="navigation__link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="alert">
+                <svg class="alert__icon">
+                    <use xlink:href="/img/sprite.svg#icon-shipping-box"></use>
+                </svg>
+                <h5 class="heading-5">Free priority overnight shipping on orders over $200</h5>
+            </div>
+
+            <div class="shop">
+
+                <div class="shop__content">
+                        <form class="shop__form">
+                            <div class="shop__form--bar">
+                                <input type="text" class="shop__search" placeholder="Search Shop...">
+                                <button class="shop__button">
+                                    <svg class="shop__icon">
+                                        <use xlink:href="/img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="shop__form--filters">
+                                <select class="shop__option" name="color">
+                                    <option selected>Any Color</option>
+                                    <option>Blue</option>
+                                    <option>White</option>
+                                    <option>Orange</option>
+                                </select>
+                                <select class="shop__option" name="type">
+                                    <option selected>Any Type</option>
+                                    <option>Hard Corals</option>
+                                    <option>Soft Corals</option>
+                                    <option>Deep-Sea Corals</option>
+                                </select>
+                                <select class="shop__option" name="size">
+                                    <option selected>Any Size</option>
+                                    <option>Small</option>
+                                    <option>Medium</option>
+                                    <option>Large</option>
+                                </select>
+                                <select class="shop__option" name="price">
+                                    <option selected>Any Price</option>
+                                    <option>$0 - $100</option>
+                                    <option>$100 - $250</option>
+                                    <option>$250 - $500</option>
+                                </select>
+                            </div>
+                        </form>
+                </div>
+
+                <div class="shop__items">
+                    <figure class="shop__item">
+                        <div class="shop__item--hero">
+                            <img src="/img/coral-1.jpeg" class="shop__item--img">
+                        </div>
+                        <div class="shop__item--content">
+                            <h4 class="heading-4">Product Name</h4>
+                            <p class="shop__price">$199.99</p>
+                            <p class="shop__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ut voluptate tempore libero non atque, molestiae?</p>
+                        </div>
+                        <div class="shop__item--bottom">
+                            <div class="shop__tags">
+                                <p class="shop__tags-p">Tags: </p>
+                                <span class="shop__tag">Coral</span>
+                                <span class="shop__tag">Freshwater</span>
+                                <span class="shop__tag">Blue</span>
+                            </div>
+                            <a class="button-2" href="#">
+                                <svg class="shop__btn--icon">
+                                    <use xlink:href="/img/sprite.svg#icon-cart"></use>
+                                </svg>
+                                Add to Cart</a>
+                        </div>
+                    </figure>
+                    
+                    <figure class="shop__item">
+                        <div class="shop__item--hero">
+                            <img src="/img/coral-2.jpeg" class="shop__item--img">
+                        </div>
+                        <div class="shop__item--content">
+                            <h4 class="heading-4">Product Name</h4>
+                            <p class="shop__price">$199.99</p>
+                            <p class="shop__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ut voluptate tempore libero non atque, molestiae?</p>
+                        </div>
+                        <div class="shop__item--bottom">
+                            <div class="shop__tags">
+                                <p class="shop__tags-p">Tags: </p>
+                                <span class="shop__tag">Coral</span>
+                                <span class="shop__tag">Freshwater</span>
+                                <span class="shop__tag">White</span>
+                            </div>
+                            <a class="button-2" href="#">
+                                <svg class="shop__btn--icon">
+                                    <use xlink:href="/img/sprite.svg#icon-cart"></use>
+                                </svg>
+                                Add to Cart</a>
+                        </div>
+                    </figure>
+
+                    <figure class="shop__item">
+                        <div class="shop__item--hero">
+                            <img src="/img/coral-3.jpeg" class="shop__item--img">
+                        </div>
+                        <div class="shop__item--content">
+                            <h4 class="heading-4">Product Name</h4>
+                            <p class="shop__price">$199.99</p>
+                            <p class="shop__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ut voluptate tempore libero non atque, molestiae?</p>
+                        </div>
+                        <div class="shop__item--bottom">
+                            <div class="shop__tags">
+                                <p class="shop__tags-p">Tags: </p>
+                                <span class="shop__tag">Coral</span>
+                                <span class="shop__tag">Freshwater</span>
+                                <span class="shop__tag">Orange</span>
+                            </div>
+                            <a class="button-2" href="#">
+                                <svg class="shop__btn--icon">
+                                    <use xlink:href="/img/sprite.svg#icon-cart"></use>
+                                </svg>
+                                Add to Cart</a>
+                        </div>
+                    </figure>
+                    
+                </div>
+            </div>
+
+            <footer class="footer footer--store">
+                <ul class="footer__nav">
+                    <li class="footer__item"><a class="footer__link" href="/index.html">Home</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Store</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Sale</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/faq.html">FAQ</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/about.html">About Us</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/contact.html">Contact</a></li>
+                </ul>
+
+                <div class="footer__left">
+                    <p class="footer__left-text">Follow Us!</p>
+                    <ul class="footer__social">
+                        <li class="footer__social--item"><a class="footer__social--link" href="#">
+                            <svg class="footer__social--icon footer__social--fb">
+                                <use xlink:href="/img/sprite.svg#icon-facebook2"></use>
+                            </svg>
+                        </a></li>
+                        <li class="footer__social--item"><a class="footer__social--link" href="#">
+                            <svg class="footer__social--icon footer__social--ig">
+                                <use xlink:href="/img/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a></li>
+                        <li class="footer__social--item"><a class="footer__social--link" href="#">
+                            <svg class="footer__social--icon footer__social--tw">
+                                <use xlink:href="/img/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a></li>
+                        <li class="footer__social--item"><a class="footer__social--link" href="#">
+                            <svg class="footer__social--icon footer__social--mail">
+                                <use xlink:href="/img/sprite.svg#icon-mail4"></use>
+                            </svg>
+                    </a></li>
+                    </ul>
+                </div>
+            
+            </footer>
+
+        </main>
+    <script src="js/main.js"></script></body>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML Document</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <link rel="shortcut icon" type="image/png" href="#">
+
+        <!-- Lato and Roboto Fonts 300, 400, 500-->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet"></head>
+    <body>
+        <main class="main">
+
+            <header class="header">
+
+                <img src="#" class="header__logo"/>
+
+                <form class="header__search">
+                    <input type="text" class="header__input" placeholder="Search"/>
+                    <button class="header__search--btn">
+                        <svg class="header__search--icon">
+                            <use xlink:href="/img/sprite.svg#icon-search"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <div class="header__login">
+                    <a class="header__btn button" href="#">Login</a>
+                    <a href="#" class="header__cart">
+                        <svg class="header__cart-icon">
+                            <use xlink:href="/img/sprite.svg#icon-cart"></use>
+                        </svg>
+                        <span class="header__notification">0</span>
+                    </a>
+                </div>
+
+            </header>
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+                    <li class="navigation__item"><a href="/store.html" class="navigation__link">Store</a></li>
+                    <li class="navigation__item"><a href="/store.html" class="navigation__link">Sale</a></li>
+                    <li class="navigation__item"><a href="/faq.html" class="navigation__link">FAQ</a></li>
+                    <li class="navigation__item"><a href="/about.html" class="navigation__link">About Us</a></li>
+                    <li class="navigation__item"><a href="/contact.html" class="navigation__link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="alert">
+                <svg class="alert__icon">
+                    <use xlink:href="/img/sprite.svg#icon-shipping-box"></use>
+                </svg>
+                <h5 class="heading-5">Free priority overnight shipping on orders over $200</h5>
+            </div>
+
+            <section class="content">
+                <figure class="content__center">
+                    <h1 class="heading-1">We Sell Coral.</h1>
+                    <h3 class="heading-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi maiores distinctio obcaecati cumque.</h3>
+                    <a class="button content__btn" href="/store.html">Browse Store</a>
+                </figure>
+            </section>
+
+            <!-- Layout: story -->
+            <section class="story__images">
+                <img class="story__images-img story__images-img--1" src="https://images.pexels.com/photos/920163/pexels-photo-920163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
+                <img class="story__images-img story__images-img--2" src="https://images.pexels.com/photos/920162/pexels-photo-920162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
+            </section>
+            <section class="story__content">
+                <h2 class="heading-2">Coral sold here</h2>
+                <p class="story__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tenetur nobis repudiandae eligendi at explicabo, nesciunt voluptas voluptatum ut modi magni accusamus quae</p>
+                <a href="/store.html" class="button-1">Browse Store &rarr;</a>
+            </section>
+
+            <section class="cards">
+                <div class="card">
+                    <svg class="card__icon">
+                        <use xlink:href="/img/sprite.svg#icon-sphere"></use>
+                    </svg>
+                    <h6 class="heading-6">Global Shipping</h6>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem repellat</p>
+                </div>
+
+                <div class="card">
+                    <svg class="card__icon">
+                        <use xlink:href="/img/sprite.svg#icon-user"></use>
+                    </svg>
+                    <h6 class="heading-6">24/7 Support</h6>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem repellat</p>
+                </div>
+
+                <div class="card">
+                    <svg class="card__icon">
+                        <use xlink:href="/img/sprite.svg#icon-price-tags"></use>
+                    </svg>
+                    <h6 class="heading-6">Best Industry Deals</h6>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem repellat</p>
+                </div>
+
+                <div class="card">
+                    <svg class="card__icon">
+                        <use xlink:href="/img/sprite.svg#icon-shield"></use>
+                    </svg>
+                    <h6 class="heading-6">Secure Payments</h6>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem repellat</p>
+                </div>
+
+                <div class="card">
+                    <svg class="card__icon">
+                        <use xlink:href="/img/sprite.svg#icon-star-empty"></use>
+                    </svg>
+                    <h6 class="heading-6">Personal Selection</h6>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem repellat</p>
+                </div>
+
+                <div class="card">
+                    <svg class="card__icon">
+                        <use xlink:href="/img/sprite.svg#icon-profile"></use>
+                    </svg>
+                    <h6 class="heading-6">What you see, is what you get.</h6>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem repellat</p>
+                </div>
+                
+            </section>
+
+            <footer class="footer">
+                <ul class="footer__nav">
+                    <li class="footer__item"><a class="footer__link" href="#">Home</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/store.html">Store</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/store.html">Sale</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/faq.html">FAQ</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/about.html">About Us</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/contact.html">Contact</a></li>
+                </ul>
+
+                <div class="footer__left">
+                    <p class="footer__left-text">Follow Us!</p>
+                    <ul class="footer__social">
+                        <li class="footer__social--item"><a class="footer__social--link" href="#">
+                            <svg class="footer__social--icon footer__social--fb">
+                                <use xlink:href="/img/sprite.svg#icon-facebook2"></use>
+                            </svg>
+                        </a></li>
+                        <li class="footer__social--item"><a class="footer__social--link" href="#">
+                            <svg class="footer__social--icon footer__social--ig">
+                                <use xlink:href="/img/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a></li>
+                        <li class="footer__social--item"><a class="footer__social--link" href="#">
+                            <svg class="footer__social--icon footer__social--tw">
+                                <use xlink:href="/img/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a></li>
+                        <li class="footer__social--item"><a class="footer__social--link" href="#">
+                            <svg class="footer__social--icon footer__social--mail">
+                                <use xlink:href="/img/sprite.svg#icon-mail4"></use>
+                            </svg>
+                    </a></li>
+                    </ul>
+                </div>
+            
+            </footer>
+
+        </main>
+    <script src="js/main.js"></script></body>
+</html>
